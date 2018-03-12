@@ -67,6 +67,29 @@ div.modal div.inner {
   background-color: #000000;
 }
 
+#title {
+    top: -260%;
+    right: 45%;
+    background-color: #00008b;
+}
+
+#section {
+    top: -165%;
+    right: 45%;
+    background-color: #d3d3d3;
+}
+
+#man {
+  top: -55%;
+  right: 65%;
+  background-color: #ffffff;
+}
+
+#money {
+  top: 50%;
+  right: 45%;
+  background-color: #000000;
+}
 
 
 
