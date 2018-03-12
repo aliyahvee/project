@@ -68,19 +68,20 @@ div.modal div.inner {
 }
 
 #title {
-    top: -260%;
+    top: 40%;
     right: 45%;
     background-color: #00008b;
 }
 
 #section {
-    top: -165%;
+    top: 35%;
     right: 45%;
-    background-color: #d3d3d3;
+    background-color: #808080;
+
 }
 
 #man {
-  top: -55%;
+  top: 45%;
   right: 65%;
   background-color: #ffffff;
 }
@@ -91,12 +92,25 @@ div.modal div.inner {
   background-color: #000000;
 }
 
-
-
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
     /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+#section {
+  top: 45%;
+  right: 47%;
+  background-color: #808080;
+    }
+#man {
+  top: 45%;
+  right: 70%;
+  background-color: #ffffff;
+    }
+#money {
+  top: 51%;
+  right: 50%;
+  background-color: #000000;
+    }
 }
 
 @media(min-width: 729px) {
