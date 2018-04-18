@@ -76,7 +76,7 @@ div.modal div.inner {
   background-color: #000000;
 }
 
-#title {
+#player {
     top: 40%;
     right: 45%;
     background-color: #00008b;
@@ -89,17 +89,6 @@ div.modal div.inner {
 
 }
 
-#man {
-  top: 45%;
-  right: 65%;
-  background-color: #ffffff;
-}
-
-#money {
-  top: 50%;
-  right: 45%;
-  background-color: #000000;
-}
 
 /* Tablet/Desktop overrides */
 
