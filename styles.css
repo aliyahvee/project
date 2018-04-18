@@ -25,7 +25,7 @@ html, body {
 
 h1 {
   text-align: center;
-  max-width: 650px;
+  max-width: 60%;
   margin: auto;
   padding: .5em;
 }
@@ -47,7 +47,7 @@ div.hotspot img {
 }
 
 div.modal {
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
   position: fixed;
   top: 200%;
@@ -58,7 +58,7 @@ div.modal {
 }
 
 div.modal.active {
-  top: 0;
+  top: 20%;
 }
 
 div.modal div.inner {
@@ -70,10 +70,19 @@ div.modal div.inner {
 
 .spot {
   position: absolute;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   background-color: #000000;
+}
+
+.description{
+    font-size: 1.8em;
+}
+
+.caption {
+  max-width: 75%;
+  margin: auto;
 }
 
 #player {
@@ -83,7 +92,7 @@ div.modal div.inner {
 }
 
 #section {
-    top: 35%;
+    top: 75%;
     right: 45%;
     background-color: #808080;
 
@@ -95,21 +104,19 @@ div.modal div.inner {
 @media(min-width: 681px) {
     /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 #section {
-  top: 45%;
-  right: 47%;
+  top: 80%;
+  right: 49%;
   background-color: #808080;
     }
-#man {
-  top: 45%;
-  right: 70%;
-  background-color: #ffffff;
+
+.spot {
+      position: absolute;
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background-color: #000000;
     }
-#money {
-  top: 51%;
-  right: 50%;
-  background-color: #000000;
-    }
-}
+
 
 @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
